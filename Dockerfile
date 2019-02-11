@@ -10,3 +10,4 @@ RUN gem install asciidoctor-pdf-cjk-kai_gen_gothic --no-ri --no-rdoc && \
 COPY fonts /usr/lib/ruby/gems/2.4.0/gems/asciidoctor-pdf-cjk-kai_gen_gothic-0.1.1/data/fonts
 COPY styles /documents/build/styles
 
+WORKDIR /documents
